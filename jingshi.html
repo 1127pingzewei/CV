@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>颈饰</title>
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lb.js"></script>
+</head>
+
+<body>
+    <div class="structure-jc header">
+        <logo>
+            <img src="images/logo.png" width="100px" height="auto;" style="padding-top: 10px;">
+        </logo>
+        <nav class="nav">
+            <ul class="structure-fw nav-bar">
+                <li><a href="./index.html">首页</a></li>
+
+                <li>
+                    <a href="" class="active">饰品分类</a>
+                    <div class="sub-navigation">
+                        <a href="shoushi.html">手饰</a>
+                        <a href="toushi.html">头饰</a>
+                        <a href="jingshi.html">颈饰</a>
+                        <a href="ershi.html">耳饰</a>
+                        <a href="yaoshi.html">腰饰</a>
+                        <a href="zhuyaoyuanliao.html">主要原料</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">代表饰品</a>
+                    <div class="sub-navigation">
+                        <a href="shbz.html">珊瑚巴珠</a>
+                        <a href="jiuyantianzhu.html">九眼天珠</a>
+                        <a href="nhmlxl.html">南红玛瑙</a>
+                        <a href="">项链</a>
+                    </div>
+                </li>
+                <li><a href="">饰品欣赏</a></li>
+                <li><a href="tedianyiyi.html">特点意义</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <script src="./js/vue.js"></script>
+        <link rel="stylesheet" href="./css/ele.css">
+        <script src="./js/ele.js"></script>
+        <div class="contentl" id="app">
+            <el-carousel height="1000px">
+                <el-carousel-item v-for="item in list" :key="item">
+                    <img :src="item">
+                </el-carousel-item>
+            </el-carousel>
+        </div>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    list: ['./img/1.gif', './img/2.gif', './img/3.gif']
+                }
+            })
+        </script>
+    </div>
+
+    <div class="structure-fw content mbx">
+        <a href="index.html">首页</a> 》 <a href="index.html">饰品分类</a> 》 <span>颈饰</span>
+    </div>
+
+    <div class="content">
+        <h4 class="bt-ershi">颈饰</h4>
+        <div class="structure-fw jinshi01" id="x">
+            <div>
+                <h4>颈饰</h4>
+                <p>藏族特色的项链有很多种，最常见的是以绿豆大小的珠子串成，材料一般为松石、玛瑙、蜜蜡、青金石、檀木、藏银等，颜色多为红色，绿色、黄色、白色，串成项链的珠子的数量没有特殊要求，但是很多都以108颗为准，这与藏传佛教中108颗佛珠代表108种烦恼或者108尊佛的功德有关。
+                </p>
+            </div>
+            <img src="images/jingshi01.png" width="441px" height="406px">
+        </div>
+        <div class="structure-fw jinshi01" id="a">
+            <img src="images/jingshi02.png" width="441px" height="406px">
+            <div>
+                <p> 很多项链还带有吊坠，吊坠多呈圆形、椭圆形、水滴形，材料一般是松石、玛瑙、蜜蜡、青金石、玉石、藏银等。其中最为珍贵的“天珠”，藏语称为“孜”，关于它的来源说法很多，史学家认为这是从波斯一带传入西藏的手工饰品，但是藏族的传说故事中则认为“孜”是从天上掉下来的虫子变化而成的，至今未有定论，这也使得“孜”更加珍贵，其中九眼天珠是最为珍贵的。
+                </p>
+            </div>
+
+        </div>
+        <div class="structure-fw jinshi01" id="b">
+
+            <div>
+                <p> 项链一般是由珊瑚翡翠、松耳石、九眼珠组成。有的还要在其中一串项链的中间串一个小护身盒。护身盒:妇女使用的护身盒一般都比较小巧，有方的圆的扁圆的，上面镶有珊瑚和翡翠。护身盒又叫嘎乌盒，从来源来说，“嘎乌”是藏语的音译，指护身的盒子，由佛盒演变而来，原初它是表达对佛的虔诚，后来越做越精巧，成为人们喜爱的服饰。藏族妇女尤其喜欢用嘎乌等饰品装扮自己，显得更加妩媚动人。它是不分男女老少、佩戴较多的装饰物。嘎乌的形状有方也有圆，一般来说，男子用方的，女子用圆的，挂在脖子上。
+                </p>
+            </div>
+            <img src="images/jingshi03.png" width="441px" height="406px">
+        </div>
+
+        <div class="structure-jc sdex" id="c">
+            <p> 藏族女子多爱在颈项上佩戴各色饰物，有用式样不同的古海贝化石串成的项链（名为“丝”），也有用彩珠、海贝化石、绿松石等混串而成的项链。</p>
+            <img src="images/jingshi04.png" width="308px" height="336px;">
+        </div>
+    </div>
+
+    <div class="content">
+        <style>
+            .foot-a:hover {
+                color: #fff;
+            }
+        </style>
+        <a href="./wyjs.html" class="foot-a">藏饰纹样探究与介绍>></a>
+    </div>
+
+    <div class="content">
+        <style>
+            .c:hover {
+                width: 110%;
+                margin-left: -5%;
+                transition: all .9s;
+            }
+        </style>
+        <ul class="structure-ct" style="margin: 50px 0">
+            <li><img class="c" src="images/shiping6.png" width="120px" height="120px"></li>
+            <li><img class="c" src="images/shiping7.png" width="120px" height="120px"></li>
+            <li><img class="c" src="images/shiping8.png" width="120px" height="120px"></li>
+            <li><img class="c" src="images/shiping9.png" width="120px" height="120px"></li>
+            <li><img class="c" src="images/shiping10.png" width="120px" height="120px"></li>
+            <li><img class="c" src="images/shiping11.png" width="120px" height="120px"></li>
+        </ul>
+    </div>
+
+
+
+    <a href="index.html" class="gotop">
+        <img src="images/gotop.png" width="50px" height="auto">
+        <p>返回首页</p>
+    </a>
+    <footer>
+        <style>
+            .content a {
+                color: rgb(125, 125, 125);
+            }
+        </style>
+        <div class="content">
+            <ul class="structure-fw foot-ul">
+                <li>
+                    <h4>快速入口</h4>
+                    <p><a href="./shoushi.html">手饰</a> </p>
+                    <p><a href="./toushi.html">头饰</a> </p>
+                    <p><a href="./jingshi.html">颈饰</a> </p>
+                    <p><a href="./ershi.html">耳饰</a> </p>
+                    <p><a href="./yaoshi.html">腰饰</a> </p>
+                    <p><a href="./zhuyaoyuanliao.html">主要原料</a> </p>
+                    <p><a href="./tedianyiyi.html">特点意义</a> </p>
+                    <p><a href="./scyyl.html">藏饰颜色与原料的关联</a> </p>
+                    <p><a href="./wyjs.html">藏饰纹样探究与介绍</a> </p>
+                </li>
+                <li>
+                    <h4>代表饰品</h4>
+                    <p><a href="./shbz.html">珊瑚巴珠</a> </p>
+                    <p><a href="./jiuyantianzhu.html">九眼天珠</a> </p>
+                    <p><a href="./nhmlxl.html">南红玛瑙项链</a> </p>
+                </li>
+                <li>
+                    <h4>联系我们</h4>
+
+                    <p>邮箱：2944906395@qq.com</p>
+
+                </li>
+
+
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script src="./js/jq.js"></script>
+
+<script>
+    $(window).scroll(function () {
+
+
+
+        var oT = document.getElementById("x").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#x").addClass("animated fadeInLeft");
+
+
+
+        }
+        var oT = document.getElementById("a").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#a").addClass("animated fadeInRight");
+
+
+
+        }
+
+        var oT = document.getElementById("b").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#b").addClass("animated bounceInLeft");
+
+
+
+        }
+        var oT = document.getElementById("c").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#c").addClass("animated bounceInRight");
+
+
+
+        }
+
+    });
+
+
+</script>
