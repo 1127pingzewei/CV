@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特点意义</title>
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lb.js"></script>
+</head>
+
+<body>
+    <div class="structure-jc header">
+        <logo>
+            <img src="images/logo.png" width="100px" height="auto;" style="padding-top: 10px;">
+        </logo>
+        <nav class="nav">
+            <ul class="structure-fw nav-bar">
+                <li><a href="./index.html">首页</a></li>
+
+                <li>
+                    <a href="">饰品分类</a>
+                    <div class="sub-navigation">
+                        <a href="shoushi.html">手饰</a>
+                        <a href="toushi.html">头饰</a>
+                        <a href="jingshi.html">颈饰</a>
+                        <a href="ershi.html">耳饰</a>
+                        <a href="yaoshi.html">腰饰</a>
+                        <a href="zhuyaoyuanliao.html">主要原料</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">代表饰品</a>
+                    <div class="sub-navigation">
+                        <a href="shbz.html">珊瑚巴珠</a>
+                        <a href="jiuyantianzhu.html">九眼天珠</a>
+                        <a href="nhmlxl.html">南红玛瑙</a>
+                        <a href="">项链</a>
+                    </div>
+                </li>
+                <li><a href="">饰品欣赏</a></li>
+                <li><a href="tedianyiyi.html" class="active">特点意义</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <script src="./js/vue.js"></script>
+        <link rel="stylesheet" href="./css/ele.css">
+        <script src="./js/ele.js"></script>
+        <div class="contentl" id="app">
+            <el-carousel height="1000px">
+                <el-carousel-item v-for="item in list" :key="item">
+                    <img :src="item">
+                </el-carousel-item>
+            </el-carousel>
+        </div>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    list: ['./img/1.gif', './img/2.gif', './img/3.gif']
+                }
+            })
+        </script>
+    </div>
+
+    <div class="structure-fw content mbx">
+        <a href="index.html">首页</a> 》 <span>特点意义</span>
+    </div>
+
+    <div class="bg4">
+        <div class="content">
+            <div class="structure-fn" style="align-items: center;" id="x">
+                <div class="yy-d">
+                    <h4>藏族配饰的特点：</h4>
+                    <p>1、 神秘：藏族同胞的大多配饰都与宗教、动物相关，有特殊的含义。不是当地人，很难懂得。<br>
+
+                        2、 美丽：耳坠、发饰、链子……色彩艳丽，既有现代的时尚感，又有复古之风。阳光下，闪闪发光;走起路来，
+
+                        还有悦耳的节奏声。<br>
+
+                        3、 陈旧：藏饰全为纯手工制作，不主张清洗，戴久了上面会有一层厚厚的垢，所以配饰时间越久看起来就越陈
+
+                        旧。<br>
+
+                        4、 奇特：构成藏饰品的材料丰富多彩，有普通石头加工的玛尼石，有用纯天然的矿物颜料画的唐卡，也有纯金
+
+                        、纯银线绣的唐卡。总之，只有你想不到的。</p>
+                </div>
+                <img src="images/yy1.png" width="274px" height="416px">
+            </div>
+
+            <div class="structure-fn" style="align-items: center;" id="a">
+                <img src="images/yy2.png" width="274px" height="416px">
+                <div class="yy-d">
+                    <h4>藏族首饰的内涵：</h4>
+                    <p>藏族的传统首饰将藏族人的民族性格与民族文化充分地表现了出来。藏族的首饰配饰大多是用金银铜镶嵌上天然的宝石
+
+                        材料，例如玛瑙、珊瑚、琥珀、绿松石等，而且这些宝石很多都是没有经过过分的加工，尽力保留了它们原始的样子，这就
+
+                        象征了藏族人民的朴实与纯真。但是其中的金银又是经过了精细的铸造和打磨，因为藏族人民生活在高寒地区，高原宽广辽
+
+                        阔，藏族人征服了这样的地域，和自然和谐地相处着，他们的首饰中便处处表现了人与自然的和谐相处，他们没有过多的干
+
+                        涉自然，于是他们的首饰也保留了自然的痕迹，他们没有被自然打败，由此他们首饰中的金银统统经过了精细的打磨，这种
+
+                        人与自然的融洽是别的地区、是任何城市都无法比拟的，是独一无二的。藏族人喜欢佩戴首饰其实也出于被迫，他们的游牧
+
+                        文化使得他们无法在一个地方长期停留，于是他们将自己的财产转变成了方便携带的珠宝首饰。</p>
+                </div>
+
+            </div>
+            <div class="structure-fn" style="align-items: center;" id="b">
+
+                <div class="yy-d">
+                    <h4>教元素对传统藏族首饰的影响:</h4>
+                    <p>藏民是最为虔诚的民族，喇嘛、布达拉宫、活佛这三个词或许是许多人对于藏族宗教文化的基本概念，他们的宗教信仰
+
+                        是他们生活不可缺少的一部分，他们的饰品当然不会缺少宗教的元素。藏族首饰的装饰纹样、宝石用法都很有讲究，藏族首
+
+                        饰的纹样很多都取材于藏传佛教文化中的元 素，藏传佛教崇尚“9”这个数字，所以“9”是 首饰佩戴中最吉祥的数字纹样
+
+                        ，还有吉祥八宝纹、六字真言纹都是经常出现在藏族首饰中的纹样，这样的首饰藏族人民不仅可以佩戴来获得吉祥的寓意，
+
+                        也可以时时拿来诵读。在西藏有种叫做天珠的宝石，在藏族文化中天珠是从宇宙坠入凡间的神物，只要佩戴它就可以祛病辟
+
+                        邪，得到保佑，天珠上有类似于眼球形状图案，其中如果有九个 眼睛则被称为九眼天珠，“9"本 就是藏传佛教文化最吉祥
+
+                        的数字，九眼天珠被当作天珠中的极品，有着无上佛法、大圆满等等佛教意义。</p>
+                </div>
+                <img src="images/yy3.png" width="274px" height="416px">
+            </div>
+
+            <div class="structure-fn" style="align-items: center;" id="e">
+                <img src="images/yy4.png" width="274px" height="416px">
+                <div class="yy-d">
+                    <h4>总结:</h4>
+                    <p>西藏是一个幅员辽阔的地区，他们与自然和谐相处造就了他们独特的民俗文化，不同地区的藏族所佩戴的首饰
+
+                        也不尽相同，但总体来说就是他们喜欢使用夸张的造型、大胆的色彩和精致的金属，对于藏族人民来说，首饰不仅
+
+                        仅是他们的装饰品，更是他们文化的载体、情感的寄托。西藏文化的精深不是短短几行文字可以概括的，它需要我
+
+                        们慢慢去推敲体会。中国地大物博，孕育了数不胜数的特色文化民俗，这些民俗有很多正在由于时代的发展被慢慢
+
+                        同化走向消失，在此笔者希望可以有更多的人通过这篇文章去了解藏族文化，更可以启发读者关注其他特色民俗文
+
+                        化，将这些文化保护传承下去。</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <a href="index.html" class="gotop">
+        <img src="images/gotop.png" width="50px" height="auto">
+        <p>返回首页</p>
+    </a>
+    <footer>
+        <style>
+            .content a {
+                color: rgb(125, 125, 125);
+            }
+        </style>
+        <div class="content">
+            <ul class="structure-fw foot-ul">
+                <li>
+                    <h4>快速入口</h4>
+                    <p><a href="./shoushi.html">手饰</a> </p>
+                    <p><a href="./toushi.html">头饰</a> </p>
+                    <p><a href="./jingshi.html">颈饰</a> </p>
+                    <p><a href="./ershi.html">耳饰</a> </p>
+                    <p><a href="./yaoshi.html">腰饰</a> </p>
+                    <p><a href="./zhuyaoyuanliao.html">主要原料</a> </p>
+                    <p><a href="./tedianyiyi.html">特点意义</a> </p>
+                    <p><a href="./scyyl.html">藏饰颜色与原料的关联</a> </p>
+                    <p><a href="./wyjs.html">藏饰纹样探究与介绍</a> </p>
+                </li>
+                <li>
+                    <h4>代表饰品</h4>
+                    <p><a href="./shbz.html">珊瑚巴珠</a> </p>
+                    <p><a href="./jiuyantianzhu.html">九眼天珠</a> </p>
+                    <p><a href="./nhmlxl.html">南红玛瑙项链</a> </p>
+                </li>
+                <li>
+                    <h4>联系我们</h4>
+
+                    <p>邮箱：2944906395@qq.com</p>
+
+                </li>
+
+
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+<script src="./js/jq.js"></script>
+
+<script>
+    $(window).scroll(function () {
+
+
+
+        var oT = document.getElementById("x").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#x").addClass("animated fadeInDown");
+
+
+
+        }
+
+        var oT = document.getElementById("a").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#a").addClass("animated fadeInLeft");
+
+
+
+        }
+        var oT = document.getElementById("b").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#b").addClass("animated fadeInLeftBig");
+
+
+
+        }
+        var oT = document.getElementById("e").offsetTop;
+
+        if (oT >= $(window).scrollTop() && oT < ($(window).scrollTop() + $(window).height())) {
+            $("#e").addClass("animated fadeInLeft");
+
+
+
+        }
+
+
+
+
+
+    });
+
+
+</script>
